@@ -1,0 +1,162 @@
+[
+  {
+    "id": "p5",
+    "title": "Citadel of Qaitbey",
+    "image": {
+      "src": "Citadel-of-Qaitbey.jpg",
+      "alt": "Citadel of Qaitbey"
+    },
+    "lat": 37.9715,
+    "lon": 23.7257
+  },
+  {
+    "id": "p7",
+    "title": "Montaza Palace",
+    "image": {
+      "src": "Montaza.jpg",
+      "alt": "Montaza palace"
+    },
+    "lat": 64.9631,
+    "lon": -19.0208
+  },
+  {
+    "id": "p3",
+    "title": "Bibliothica Library",
+    "image": {
+      "src": "bibliotheca.jpg",
+      "alt": "Bibliothica Library"
+    },
+    "lat": 27.9881,
+    "lon": 86.925
+  },
+  {
+    "id": "p6",
+    "title": "Bahri",
+    "image": {
+      "src": "Bahri.jpg",
+      "alt": "Bahri"
+    },
+    "lat": -3.4653,
+    "lon": -62.2159
+  },
+  {
+    "id": "p1",
+    "title": "Stanley Bridge",
+    "image": {
+      "src": "stanley.jpg",
+      "alt": "stanley"
+    },
+    "lat": 44.5588,
+    "lon": -80.344
+  },
+  {
+    "id": "p2",
+    "title": "Royal Jewelry Museum",
+    "image": {
+      "src": "Royal-Jewelry-Museum.jpg",
+      "alt": "Royal Jewelry Museum"
+    },
+    "lat": 25.0,
+    "lon": 0.0
+  },
+  {
+    "id": "p8",
+    "title": "Helnan Palestine Hotel",
+    "image": {
+      "src": "Helnan-Palestine-Hotel.jpg",
+      "alt": "Helnan Palestine Hotel"
+    },
+    "lat": 34.9949,
+    "lon": 135.785
+  },
+  {
+    "id": "p4",
+    "title": "Alexandria National Museum",
+    "image": {
+      "src": "Alexandria-National-Museum.jpg",
+      "alt": "Alexandria National Museum"
+    },
+    "lat": 18.2208,
+    "lon": -66.5901
+  },
+  {
+    "id": "p9",
+    "title": "Kom el Dikka",
+    "image": {
+      "src": "Kom-el-Dikka.jpg",
+      "alt": "Kom el Dikka"
+    },
+    "lat": -18.2871,
+    "lon": 147.6992
+  },
+  {
+    "id": "p10",
+    "title": "Catacombs of Kom El Shoqafa",
+    "image": {
+      "src": "Catacombs-of-Kom-El-Shoqafa.jpg",
+      "alt": "Catacombs-of-Kom-El-Shoqafa"
+    },
+    "lat": 48.8566,
+    "lon": 2.3522
+  },
+  {
+    "id": "p11",
+    "title": "Pompey’s Pillar and Serapeum",
+    "image": {
+      "src": "Pompey’s-Pillar-and-Serapeum.jpg",
+      "alt": "Pompey’s Pillar and Serapeum"
+    },
+    "lat": 36.1069,
+    "lon": -112.1129
+  },
+  {
+    "id": "p12",
+    "title": "Graeco Roman Museum",
+    "image": {
+      "src": "Graeco-Roman-Museum.jpg",
+      "alt": "Graeco Roman Museum"
+    },
+    "lat": 45.4408,
+    "lon": 12.3155
+  },
+  {
+    "id": "p14",
+    "title": "Windsor Palace Hotel",
+    "image": {
+      "src": "Windsor-Palace.jpg",
+      "alt": "Windsor-Palace"
+    },
+    "lat": 9.4981,
+    "lon": 76.3388
+  },
+  {
+    "id": "p15",
+    "title": "Casino Al Shatabi",
+    "image": {
+      "src": "Casino-Al-Shatabi.jpg",
+      "alt": "Casino Al Shatabi"
+    },
+    "lat": -2.153,
+    "lon": 34.6857
+  },
+  {
+    "id": "p13",
+    "title": "Delices",
+    "image": {
+      "src": "Delices.jpg",
+      "alt": "Delices"
+    },
+    "lat": 27.1751,
+    "lon": 78.0421
+  },
+  {
+    "id": "p16",
+    "title": "San Stefano Hotel",
+    "image": {
+      "src": "San-Stefano.jpg",
+      "alt": "San Stefano"
+    },
+    "lat": -17.9243,
+    "lon": 25.8572
+  }
+]

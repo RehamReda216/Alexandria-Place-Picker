@@ -1,0 +1,16 @@
+@if(error()){
+  <app-error-modal title="An error occured!" [message]="error()"/>
+}
+<header>
+  <img src="Alexandria-logo.jpg" alt="Stylized globe" />
+  <h1>Alexandria</h1>
+  <p>
+    Create your collection of Alexandria’s timeless landmarks where history meets the sea.
+  </p>
+</header>
+
+<main>
+  <app-available-places />
+
+  <app-user-places />
+</main>
