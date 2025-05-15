@@ -21,13 +21,13 @@ export class PlacesService {
 
   loadAvailablePlaces() {
     return this.fetchImages(
-      'http://localhost:3000/places','Something went wrong during fetching available places data...'
+      'https://alexandria-place-picker-be-production.up.railway.app/places','Something went wrong during fetching available places data...'
     )
   }
 
   loadUserPlaces() {
     return this.fetchImages(
-      'http://localhost:3000/user-places','Something went wrong during fetching user places data...'
+      'https://alexandria-place-picker-be-production.up.railway.app/user-places','Something went wrong during fetching user places data...'
     ).pipe(tap(
       (userplaces)=> this.userPlaces.set(userplaces)
     ))
@@ -38,7 +38,7 @@ export class PlacesService {
     if(!prevPlaces.some((p)=>p.id === place.id)){
       this.userPlaces.set([...prevPlaces,place])
     }
-    return this.httpclient.put('http://localhost:3000/user-places',{
+    return this.httpclient.put('https://alexandria-place-picker-be-production.up.railway.app/user-places',{
       placeId:place.id
     }).pipe(
       catchError((error)=>{
@@ -54,7 +54,7 @@ export class PlacesService {
     if(prevPlaces.some((p)=>p.id === place.id)){
       this.userPlaces.set(prevPlaces.filter(p => p.id !== place.id));
     }
-    return this.httpclient.delete<{places:Place[]}>('http://localhost:3000/user-places/' + place.id).pipe(
+    return this.httpclient.delete<{places:Place[]}>('https://alexandria-place-picker-be-production.up.railway.app/user-places' + place.id).pipe(
       catchError((error)=>{
         this.userPlaces.set(prevPlaces);
         this.errorService.showError('Failed to remove selected place.')
