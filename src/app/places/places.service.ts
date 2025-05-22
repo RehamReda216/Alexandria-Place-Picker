@@ -44,7 +44,7 @@ export class PlacesService {
       catchError((error)=>{
         this.userPlaces.set(prevPlaces);
         this.errorService.showError('Failed to store selected place.')
-        return throwError(()=> new error('Failed to store selected place.'))
+        return throwError(() => new Error('Failed to remove selected place.'))
       })
   )
   }
@@ -54,11 +54,11 @@ export class PlacesService {
     if(prevPlaces.some((p)=>p.id === place.id)){
       this.userPlaces.set(prevPlaces.filter(p => p.id !== place.id));
     }
-    return this.httpclient.delete<{places:Place[]}>('https://alexandria-place-picker-be-production.up.railway.app/user-places' + place.id).pipe(
+    return this.httpclient.delete<{places:Place[]}>('https://alexandria-place-picker-be-production.up.railway.app/user-places/' + place.id).pipe(
       catchError((error)=>{
         this.userPlaces.set(prevPlaces);
         this.errorService.showError('Failed to remove selected place.')
-        return throwError(()=> new error('Failed to remove selected place.'))
+        return throwError(()=> new Error('Failed to remove selected place.'))
       })
     )
   }
@@ -68,7 +68,7 @@ export class PlacesService {
       map((responseData)=> responseData.places),
       catchError((error)=>{
         console.log(error);
-        return throwError(()=> new error(errorMessage))
+        return throwError(()=> new Error(errorMessage))
       }
     ))   
   }
