@@ -1,7 +1,6 @@
 section {
   max-width: 85rem;
   margin: 2rem auto;
-  padding: 1rem;
   border: 2px solid #001BCF;
   border-radius: 8px;
 }
@@ -9,7 +8,7 @@ section {
 section h2 {
   font-family: "Raleway", sans-serif;
   font-size: 1.5rem;
-  margin: 0;
+  margin-top: 1rem;
   padding: 0;
   margin-bottom: 1rem;
   color: #001BCF;

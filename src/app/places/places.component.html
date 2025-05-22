@@ -1,13 +1,15 @@
 <ul>
     @for(place of places(); track place.id){
         <li class="place-item">
-            <button (click)="onSelectPlace(place)">
-                <img
-                    [src]="'https://alexandria-place-picker-be-production.up.railway.app/' + place.image.src"
-                    [alt]="place.image.alt"
-                />
-                <h3>{{place.title}}</h3>
-            </button>
+                <button (click)="onSelectPlace(place)">
+                    <div class="image-container">
+                        <img
+                            [src]="'https://alexandria-place-picker-be-production.up.railway.app/' + place.image.src"
+                            [alt]="place.image.alt"
+                        />
+                        <h3>{{place.title}}</h3>
+                    </div>
+                </button>
         </li>
     }
 </ul>

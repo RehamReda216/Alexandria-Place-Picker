@@ -1,0 +1,20 @@
+
+@media (min-width:320px) and (max-width:374px) {  
+    header h1{
+        padding: 1rem 0;
+        font-size: 1rem;
+    }
+    header p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width:375px) and (max-width:426px) {  
+    header h1{
+        padding: 1rem 0;
+        font-size: 1.5rem;
+    }
+    header p {
+        font-size: 1rem;
+    }
+}
